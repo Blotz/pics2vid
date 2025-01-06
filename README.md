@@ -7,6 +7,13 @@ Provides a simple interface for downloading images asynchronously & in order.
 
 Images are stored in a buffer until all previous images have been downloaded.
 
+#### Install
+```bash
+pip install git+https://github.com/Blotz/pics2vid
+```
+
+#### Examples
+
 ```python
 import asyncio
 from pics2vid import encode_images_to_video

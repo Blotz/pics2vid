@@ -1,7 +1,7 @@
 # pics2vid
 
 Simple library which converts a list of image urls to video.
-![example output](https://raw.githubusercontent.com/Blotz/pics2vec/main/data/output.gif)
+![example output](https://raw.githubusercontent.com/Blotz/pics2vid/refs/heads/main/data/output.gif)
 
 Provides a simple interface for downloading images asynchronously & in order.
 

@@ -36,6 +36,6 @@ import asyncio
 from pics2vid import download_images_concurrently
 
 async def main():
-    async for image_buffer in download_images_concurrently(links, max_concurrency):
+    async for image_buffer in download_images_concurrently(links):
         image_buffer.read()
 ```

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pics2vid"
+version = "1.0.0"
+authors = [
+    {name = "Ferdinand Theil", email = "f.p.theil@proton.me"},
+]
+description = "Converts a list of image urls to a video"
+readme = "README.md"
+# requires-python = ">=3.9"
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'aiohttp',
+    'asyncio',
+    'ffmpeg-python',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Blotz/pics2vid"
+"Bug Tracker" = "https://github.com/Blotz/pics2vid/issues"
